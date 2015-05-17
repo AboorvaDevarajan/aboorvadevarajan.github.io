@@ -16,6 +16,53 @@
         display: inline;
       }
      
+     
+     /*PACKMAN*/
+
+     .wrap-packman .svg-packman { 
+       width: 300px; 
+       display: inline-block; 
+       vertical-align: top; 
+       box-sizing: border-box; 
+       padding: 20px;
+       position: relative;
+
+       animation:packglide 5s infinite;
+       animation-timing-function: ease-in-out;
+
+       -webkit-animation:packglide 6s infinite;
+       -webkit-animation-timing-function: ease-in-out;  
+     }
+
+     .svg-packman .shade {
+	     fill: hsl(4,66%,53%);
+	     animation: shadeglow 6s ease-in-out 0 infinite alternate;
+	     -webkit-animation: shadeglow 6s ease-in-out 0 infinite alternate;
+     }
+
+     .svg-packman .body {
+	     fill: hsl(4, 66%, 59%);
+	     animation: glow 6s ease-in-out 0 infinite alternate;
+	     -webkit-animation: glow 6s ease-in-out 0 infinite alternate;
+     }
+
+
+     .svg-packman .eyewhite {
+	     fill: hsl(4, 0%, 100%);
+     }
+
+     .svg-packman .eye {
+	     fill: hsl(200, 45%, 30%);
+
+	     -webkit-animation-name: blink;
+	     -webkit-animation-duration: 5s;
+	     -webkit-animation-iteration-count: infinite; 
+	     -webkit-transform-origin:50% 50%;
+
+	     animation-name: blink;
+	     animation-duration: 5s;
+	     animation-iteration-count: infinite; 
+     }
 
      /*PACKMAN ANIMATION*/
 
