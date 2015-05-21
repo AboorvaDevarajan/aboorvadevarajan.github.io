@@ -4,12 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
-### More Information
+![_config.yml]({{ site.baseurl }}/images/abu.jpg)
 
-A place to include any other types of information that you'd like to include about yourself.
+ <br>
+ <p>I am a fifth year student of <strong>Software Engineering</strong> at <strong><a href="http://www.citindia.com">Coimbatore Institute of Technology</a></strong>.</p>
+ <p>My Intersts includes <strong> Algorithms, Artificial Intelligence, High Performance Computing</strong></p>
+ <p>I'm planning to share some of my projects, thoughts, sketches here.<img src="images/smile.png"> </p>
+ <br>
+
+
+
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[aburvadevarajan@gmail.com](mailto:aburvadevarajan@gmail.com)
