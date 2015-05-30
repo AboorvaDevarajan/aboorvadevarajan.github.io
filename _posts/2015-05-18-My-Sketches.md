@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Drawing is always fun :) !
+title: Drawing is always fun  ! ![_config.yml]({{ site.baseurl }}/images/smile.png)
 ---
 
 
 ![_config.yml]({{ site.baseurl }}/images/sketches/cartoon.jpg)
-
