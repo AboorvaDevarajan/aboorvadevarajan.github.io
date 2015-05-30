@@ -12,8 +12,6 @@ I am a fifth year student of <strong>Integrated M.Sc Software Engineering</stron
 </font>
 <br/>
 <br/>
-<br/>
-
 
 ### Contact me
 [aburvadevarajan@gmail.com](mailto:aburvadevarajan@gmail.com)
