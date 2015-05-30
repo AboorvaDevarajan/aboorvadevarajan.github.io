@@ -5,9 +5,9 @@ permalink: /about/
 ---
 
 
- <p>I am a fifth year student of <strong>Integrated M.Sc Software Engineering</strong> at <strong><a href="http://www.citindia.com">Coimbatore Institute of Technology</a></strong>.</p>
- <p>My Intersts includes <strong> Algorithms, Artificial Intelligence, High Performance Computing</strong></p>
- <p>I'm planning to share some of my projects, thoughts, sketches here.<img src="/images/smile.png"> </p>
+ <p>I am a fifth year student of <strong>Integrated M.Sc Software Engineering</strong></br> at <strong><a href="http://www.citindia.com">Coimbatore Institute of Technology</a></strong>.</p>
+ <p>My Interests includes <strong> Algorithms, Artificial Intelligence, High Performance Computing</strong></p>
+ <p>I'm planning to share some of my projects, thoughts and sketches here.<img src="/images/smile.png"> </p>
  <br>
 
 
