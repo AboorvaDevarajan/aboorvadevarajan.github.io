@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project
+title: Projects
 permalink: /project/
 ---
 <link href="_sass/bootstrap.min.css" rel="stylesheet">
