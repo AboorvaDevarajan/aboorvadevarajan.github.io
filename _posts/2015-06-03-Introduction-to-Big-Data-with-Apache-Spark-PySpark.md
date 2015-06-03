@@ -5,7 +5,6 @@ title: Introduction to Big Data with Apache Spark (PySpark): Week 1 Notes
 
 
 **<h3>What is Data Science?</h3>**
-<br/>
 <p>Data Science aims to derive knowledge from big data efficiently and intelligently. </p>
 <p>Data Science encompasses a set of activities tools and methods that enable data-driven activities in science, business, medicine and government. </p>
 
