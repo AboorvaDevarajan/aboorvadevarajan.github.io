@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Drawing is always fun :) !
+title: Drawing is always fun :D !
 ---
 
 
