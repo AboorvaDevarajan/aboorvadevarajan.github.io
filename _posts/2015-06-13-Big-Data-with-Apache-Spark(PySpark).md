@@ -40,7 +40,7 @@ The other way to do it in distributed environment is to use Map-Reduce:
 
 The figure below shows the typical MapReduce processing flow. There are effectively three processes that go on here:
 <center>
-![enter image description here](http://www.rabidgremlin.com/data20/MapReduceWordCountOverview1.png =100x100)
+![enter image description here](http://www.rabidgremlin.com/data20/MapReduceWordCountOverview1.png)
 </center>
 
 ***Map process*** – take some of data and split them between distinct keys and values, it performs the filtering task.
