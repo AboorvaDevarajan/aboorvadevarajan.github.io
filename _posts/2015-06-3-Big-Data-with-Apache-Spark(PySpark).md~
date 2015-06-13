@@ -3,8 +3,6 @@ layout: post
 title: Big Data with Apache Spark (Week 1)
 ---
 
-
-
 **<h3>What is Data Science?</h3>**
 <p>Data Science aims to derive knowledge from big data efficiently and intelligently. </p>
 <p>Data Science encompasses a set of activities tools and methods that enable data-driven activities in science, business, medicine and government. </p>
@@ -29,7 +27,7 @@ Correlation does not imply causation is a phrase used in science and statistics 
 **<h3>What is Big Data?</h3>**
 
 According to John Akred the Founder and CTO, Silicon Valley Data Science 
-><p>“Big Data” refers to a combination of an approach to informing decision making with analytical insight derived from data, and a set of enabling technologies that enable that insight to be economically derived from at times very large, diverse sources of data. Advances in sensing technologies, the digitization of commerce and communications, and the advent and growth in social media are a few of the trends which have created the opportunity to use large scale, fine grained data to understand systems, behavior and commerce; while innovation in technology makes it viable economically to use that information to inform decisions and improve outcomes. </p>
+<p>“Big Data” refers to a combination of an approach to informing decision making with analytical insight derived from data, and a set of enabling technologies that enable that insight to be economically derived from at times very large, diverse sources of data. Advances in sensing technologies, the digitization of commerce and communications, and the advent and growth in social media are a few of the trends which have created the opportunity to use large scale, fine grained data to understand systems, behavior and commerce; while innovation in technology makes it viable economically to use that information to inform decisions and improve outcomes. </p>
 
 **<h3>Major Source of Big Data</h3>**
 <center>
