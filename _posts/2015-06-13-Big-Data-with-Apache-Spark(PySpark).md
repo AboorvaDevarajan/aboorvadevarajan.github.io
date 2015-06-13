@@ -92,8 +92,8 @@ Apache Spark is a new distributed execution engine that makes use of the in-memo
 
 It provides programming abstraction and parallel runtime to hide complexities of fault-tolerance and slow machines.
 
-> - Spark will schedule the processes in the distributed environment.
- > - It also provides automatic recovery from the node failures and slow nodes.
+ - Spark will schedule the processes in the distributed environment.
+ - It also provides automatic recovery from the node failures and slow nodes.
 
 <center>
 ![enter image description here](https://spark.apache.org/images/spark-stack.png)

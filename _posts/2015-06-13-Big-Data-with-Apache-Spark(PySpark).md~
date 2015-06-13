@@ -45,7 +45,7 @@ The other way to do it in distributed environment is to use Map-Reduce:
 The figure below shows the typical MapReduce processing flow. There are effectively three processes that go on here:
 
 <center>
-![enter image description here](http://s30.postimg.org/t8ad9a3ip/Map_Reduce_Word_Count_Overview1.png)
+![enter image description here](http://s13.postimg.org/iumq3g4fb/Map_Reduce_Word_Count_Overview1.png)
 </center>
 
 ***Map process*** – take some of data and split them between distinct keys and values, it performs the filtering task.
@@ -92,8 +92,8 @@ Apache Spark is a new distributed execution engine that makes use of the in-memo
 
 It provides programming abstraction and parallel runtime to hide complexities of fault-tolerance and slow machines.
 
-> - Spark will schedule the processes in the distributed environment.
- > - It also provides automatic recovery from the node failures and slow nodes.
+ - Spark will schedule the processes in the distributed environment.
+ - It also provides automatic recovery from the node failures and slow nodes.
 
 <center>
 ![enter image description here](https://spark.apache.org/images/spark-stack.png)
