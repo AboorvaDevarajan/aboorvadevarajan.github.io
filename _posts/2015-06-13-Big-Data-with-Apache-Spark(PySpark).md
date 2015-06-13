@@ -9,17 +9,17 @@ title: Big Data with Apache Spark (Week 2) Part 1
 
 **Part 2:**
 
->**The Big Data Problem**
+- **The Big Data Problem**
 
->**Hardware for Big Data**
+- **Hardware for Big Data**
 
->**Distribution of work in Big Data**
+- **Distribution of work in Big Data**
 
->**Handling Failures and Slow Machines**
+- **Handling Failures and Slow Machines**
 
->**Map Reduce and Complex Jobs**
+- **Map Reduce and Complex Jobs**
 
->**Apache Spark**
+- **Apache Spark**
 
 Analysis Tools mainly includes :  UNIX Shell Commands, Pandas (Python), R
 
@@ -55,7 +55,7 @@ The figure below shows the typical MapReduce processing flow. There are effectiv
 
 MapReduce implementation handles the following problems:
 
-> - Recovering from machine failures 
+- Recovering from machine failures 
 - Shuffling data between the Map and Reduce functions 
 - Running the Map and Reduce functions on many machines 
 - Recovering from slow machines
