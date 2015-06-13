@@ -96,18 +96,18 @@ It provides programming abstraction and parallel runtime to hide complexities of
  > - It also provides automatic recovery from the node failures and slow nodes.
 
 <center>
-![enter image description here](https://spark.apache.org/images/spark-stack.png =100x100)
+![enter image description here](https://spark.apache.org/images/spark-stack.png)
 </center>
 
 "Using memory instead of disks offers two huge benefits. The first benefit is that memory is much faster than disks. The time to read or write a value to memory is only a few nanoseconds, while the time to read or write is several milliseconds - that means memory is a million times faster than disks. The second benefit is that keeping intermediate results in memory means that they do not have to be converted into a format that can be stored on disks. The process of converting a memory object to a disk object is called serialization and the process of converting a disk object to a memory object is called deserialization. Serializing and deserializing objects is a very expensive and time consuming process. Keeping intermediate results in memory avoids this significant overhead.
 
 <center>
-![enter image description here](http://blog.cloudera.com/wp-content/uploads/2013/11/spark1.png =100x100)
+![enter image description here](http://blog.cloudera.com/wp-content/uploads/2013/11/spark1.png)
 </center>
 
 Taken together, the faster access times and avoidance of serialization/deserialization overhead make Spark much faster than Map Reduce - up to 100 times faster!"
 
 **Hadoop Map-Reduce and Apache Spark Difference**
 <center>
-![enter image description here](http://s10.postimg.org/evyqtji2h/Screenshot_from_2015_06_13_16_22_02.png =100x100)
+![enter image description here](http://s10.postimg.org/evyqtji2h/Screenshot_from_2015_06_13_16_22_02.png)
 </center>
