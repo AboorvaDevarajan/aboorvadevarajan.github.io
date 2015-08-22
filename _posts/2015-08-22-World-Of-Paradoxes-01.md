@@ -1,21 +1,21 @@
 ---
 layout: post
-title: World of Paradoxes ![_config.yml]({{ site.baseurl }}/images/smile.jpg)
+title: World of Paradoxes :)
 ---
 
-Paradoxes are the observations that contradicts the current rules and are something which are not deemed to be solved till now. Paradoxes excites me in someway, as it always needs a twist in brain to understand it. :stuck_out_tongue_winking_eye:
+Paradoxes are the observations that contradicts the current rules and are something which are not deemed to be solved till now. Paradoxes excites me in someway, as it always needs a twist in brain to understand it.
 
-I thought it will be really interesting to share some of my favorite paradoxes here. :smile:
+I thought it will be really interesting to share some of my favorite paradoxes here. <img src="/images/smile.png">
 
-<h3>Zeno's Paradox - That's number 1  ![_config.yml]({{ site.baseurl }}/images/twist.gif)</h3>
+<h3>Zeno's Paradox - That's number 1 <img src="/images/twist.gif"></h3>
 
-That's one paradox of Zeno a famous greek philosopher on infinite numbers  ![_config.yml]({{ site.baseurl }}/images/smile.jpg)
+That's one paradox of Zeno a famous greek philosopher on infinite numbers  <img src="/images/smile.png">
 
 The Zeno's paradox can be rephrased in simple words as below,
 
 If someone wish to cross a bridge of certain length. They must first cover half of the length of the bridge. Again from that point, the half of the remaining length must be covered and so on, to reach the end point of that bridge. 
 
-At this point some may think.  What's a big deal in this? It can be computed. :smirk:
+At this point some may think.  What's a big deal in this? It can be computed.<img src="/images/smirk.gif">
 
 There comes this interesting Zeno's paradox, 
 
