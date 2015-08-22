@@ -36,7 +36,7 @@ To cover a mile one must first cover half the mile, then half of half the mile a
 </i>
 
 Here's a brief insight and resolution to Zeno's paradox, however sum of infinite numbers in mathematics is always depicted to be infinite, but in the case of the above example its always a finite number. The infinite series in the Zeno's paradox is summable to a finite number.
-<img src="/images/trollface.png" height=20 width=20>
+<img src="/images/trollface.png" height=30 width=30>
 
 <br/>
 Thus, even though if there are infinitely large intermediate halves exists in between, the result is always a finite sum, in the above case its 1.  <img src="/images/smirk.png" height=20 width=20> <img src="/images/tear_laugh.png" height=20 width=20>
