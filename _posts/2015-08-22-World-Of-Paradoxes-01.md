@@ -39,7 +39,7 @@ Here's a brief insight and resolution to Zeno's paradox, however sum of infinite
 <img src="/images/trollface.png" height=30 width=30>
 
 <br/>
-Thus, even though if there are infinitely large intermediate halves exists in between, the result is always a finite sum, in the above case its 1.  <img src="/images/smirk.png" height=30 width=30> <img src="/images/tear_laugh.png" height=20 width=20>
+Thus, even though if there are infinitely large intermediate halves exists in between, the result is always a finite sum, in the above case its 1.  <img src="/images/smirk.png" height=30 width=30> <img src="/images/tear_laugh.png" height=30 width=30>
 
 
 <br/>
