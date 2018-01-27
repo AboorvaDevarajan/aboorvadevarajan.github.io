@@ -4,14 +4,14 @@ title: About Me
 permalink: /about/
 ---
 
-<font size = 3>
-I am a fifth year student of <strong>Integrated M.Sc Software Engineering</strong> at <strong><a href="http://www.citindia.com">Coimbatore Institute of Technology</a></strong>. My Interests includes <strong> Algorithms, Artificial Intelligence, High Performance Computing</strong>.
+<p> I am a Software Development Engineer with 4+ years of experience predominantly involved in developing parallel programming interface modules for High-Performance Computing Systems at IBM Systems Development Labs </p>
 
-<p>I'm planning to share some of my projects, thoughts and sketches here.<img src="/images/smile.png"></p>
+<p> My Interests includes <b> High-Performance Computing, Compilers, Algorithms, Artificial Intelligence</b>. </p>
 
-</font>
+<p> I always like to ponder and learn new things <img src="/images/smile.png"> I’m planning to share some of my projects, learnings and sketches here. </p>
+
+<p> </p>
 <br/>
 <br/>
-
-### Contact me
-[aburvadevarajan@gmail.com](mailto:aburvadevarajan@gmail.com)
+<br/>
+<br/>
