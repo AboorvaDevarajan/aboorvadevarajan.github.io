@@ -9,7 +9,7 @@ layout: default
     {% if sketch.url contains "sketch" %}
         <li>
           <span>{{ sketch.date | date_to_string }}</span> &raquo;
-          <a href="{{ sketch.url }}">{{ sketch.title }}</a>
+          <a href="{{ sketch.url }}">{{ sketch.content }}</a>
           (<a href="{{ sketch.url }}"></a>)
         </li>
     {% endif %}
