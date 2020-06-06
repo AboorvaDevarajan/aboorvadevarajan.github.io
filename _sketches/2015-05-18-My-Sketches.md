@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sketch
 title: Drawing is always fun :D !
 ---
 
