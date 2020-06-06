@@ -1,9 +1,0 @@
----
-layout: sketch
-title: Drawing is always fun :D !
----
-
-
-![_config.yml]({{ site.baseurl }}/images/sketches/cartoon.jpg)
-
-[back](https://aboorvadevarajan.github.io/blog)
