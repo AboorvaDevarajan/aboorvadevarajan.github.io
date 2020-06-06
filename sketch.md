@@ -3,5 +3,5 @@ layout: page
 ---
 
 <div class="sketches">
-    hello, world!
+    hello, world hello!
 </div>

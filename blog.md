@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div class="posts">
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo;
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      (<a href="{{ post.url }}"></a>)
+    </li>
   {% endfor %}
+  </ul>
 </div>
+
+
