@@ -9,7 +9,7 @@ layout: default
     {% if sketch.url contains "sketch" %}
         <li>
           <span>{{ sketch.date | date_to_string }}</span> &raquo;
-          <a href="{{ sketch.url }}">{{ ![_config.yml]({{ site.baseurl }}/images/sketches/cartoon.jpg) }}</a>
+          <a href="{{ sketch.url }}">{{ ({{ site.baseurl }}/images/sketches/cartoon.jpg) }}</a>
           (<a href="{{ sketch.url }}"></a>)
         </li>
     {% endif %}
