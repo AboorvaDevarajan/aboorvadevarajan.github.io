@@ -4,13 +4,14 @@ layout: default
 
 <div id="home">
   <h1>My Random Sketches</h1>
+
+  <p> Just sharing some random Sketches, even though my sketches doesn’t look great I love to draw, hoping one day I will improve. <img src="/images/smile.png"> </p>
   <ul class="sketches">
   {% for sketch in site.posts %}
     {% if sketch.url contains "sketch" %}
         <li>
           <span>{{ sketch.date | date_to_string }}</span> &raquo;
-          <a href="{{ sketch.url }}">{{ ({{ site.baseurl }}/images/sketches/cartoon.jpg) }}</a>
-          (<a href="{{ sketch.url }}"></a>)
+          <a href="{{ sketch.url }}">{{ sketch.title }}</a>
         </li>
     {% endif %}
   {% endfor %}
