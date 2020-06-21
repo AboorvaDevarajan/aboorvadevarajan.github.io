@@ -2,7 +2,7 @@
 <script type="text/javascript" src="/js/lightbox.js"></script>
 <link rel="stylesheet" href="/css/lightbox.css">
 
-{% for item in page.images %}
+{% for item in site.sketches %}
 <div class="lightbox" id="lightbox{{ forloop.index }}">
   <div class="table">
     <div class="table-cell">
