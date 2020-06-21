@@ -1,19 +1,24 @@
----
-layout: default
----
 
-<div id="home">
-  <h1>My Random Sketches</h1>
+<script type="text/javascript" src="/js/lightbox.js"></script>
+<link rel="stylesheet" href="/css/lightbox.css">
 
-  <p> Just sharing some random Sketches, even though my sketches doesn’t look great I love to draw, hoping one day I will improve. <img src="/images/smile.png"> </p>
-  <ul class="sketches">
-  {% for sketch in site.posts %}
-    {% if sketch.url contains "sketch" %}
-        <li>
-          <span>{{ sketch.date | date_to_string }}</span> &raquo;
-          <a href="{{ sketch.url }}">{{ sketch.title }}</a>
-        </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
+{% for item in page.images %}
+<div class="lightbox" id="lightbox{{ forloop.index }}">
+  <div class="table">
+    <div class="table-cell">
+      <img class="close" src="/img/close.svg" />
+      <img class="next" src="/img/next.svg" />
+      <img class="prev" src="/img/prev.svg" />
+      <div class="item" style="background: url('{{ item.image }}') center center no-repeat; background-size: cover;">
+      </div>
+    </div>
+  </div>
 </div>
+{% endfor %}
+
+<script>
+    $('.next').click(function(){
+        $(this).closest('.lightbox').hide().next().show();
+    });
+</script>
+
