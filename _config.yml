@@ -76,5 +76,11 @@ exclude:
     - README.md
     - CNAME
 
+
+sketches:
+  - image: /images/sketches/1.jpg
+  - image: /images/sketches/2.jpg
+  - image: /images/sketches/3.jpg
+
 collections:
   photo_gallery:
