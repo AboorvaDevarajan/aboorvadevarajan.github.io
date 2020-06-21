@@ -1,13 +1,10 @@
 
-<script type="text/javascript" src="/js/lightbox.js"></script>
-<link rel="stylesheet" href="/css/lightbox.css">
+
 
 <div class="lightbox" id="lightbox1">
   <div class="table">
     <div class="table-cell">
-      <img class="close" src="/img/close.svg" />
-      <img class="next" src="/img/next.svg" />
-      <img class="prev" src="/img/prev.svg" />
+
       <div class="item" style="background: url('/images/sketches/1.jpg') center center no-repeat; background-size: cover;">
       </div>
     </div>
@@ -19,4 +16,6 @@
         $(this).closest('.lightbox').hide().next().show();
     });
 </script>
+<script type="text/javascript" src="/js/lightbox.js"></script>
+<link rel="stylesheet" href="/css/lightbox.css">
 
