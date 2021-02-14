@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Aboorva Devarajan: Projects"
+header_title: Projects
+
+include_header: projects_header.html
+nav_item: projects
+---
+
+{% include analytics.html %}
+
+{% for project in site.data.projects %}
+  {% include project_outline.html project=project %}
+  
+{% endfor %}

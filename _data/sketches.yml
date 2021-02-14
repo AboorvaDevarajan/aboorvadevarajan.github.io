@@ -1,0 +1,222 @@
+- name: "30 Minute Scribble! :D"
+  date: ""
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/24.jpg"
+
+- name: "Free Willy :)"
+  date: "7 April 2020"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/23.jpg"
+
+- name: "Tree :P"
+  date: "7 April 2020"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/22.jpg"
+      
+- name: "Vignettes of Town Side"
+  date: "7 April 2020"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/21.jpg"
+
+- name: "Sun(set)(rise) ! :)"
+  date: "18 Mar 2018"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/20.jpg"
+
+
+- name: "Urban Side"
+  date: "06 Mar 2018"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/19.jpg"
+
+- name: "Light Yagami and L"
+  date: "04 Mar 2018"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/18.jpg"
+
+- name: "Just an Abstract"
+  date: "18 Feb 2018"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/17.jpg"
+
+- name: "Just another Landscape Scribble! :)"
+  date: "11 Feb 2018"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/16.jpg"
+
+- name: "Fall"
+  date: "26 Jan 2018"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/15.jpg"
+
+- name: "Rubik's Cube Cheat! :P"
+  date: "06 May 2017"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/14.jpg"
+
+- name: "Wild Nature"
+  date: "07 Nov 2016"
+  description: >
+               Looking deep into the nature, I realize there's much more.
+               Birds are so free, it wanders and chirps all over, 
+               Oh ! there are these mighty Mountains.
+               Sky is so high that I can't reach,
+               Oh ! Nature you can't be more perfect. 🙂
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/13.jpg"
+
+- name: "Imaginary Black Hole :)"
+  date: "05 Sep 2016"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/12.jpg"
+
+- name: "Snowy Landscape"
+  date: "12 Jul 2016"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/11.jpg"
+
+- name: "Beach Watching :)"
+  date: "02 Jul 2016"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/10.jpg"
+
+- name: "Sleeeeeepy MONDAY! (-_-) zZZZ!!"
+  date: "06 Jun 2016"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/9.jpg"
+
+- name: "Yachting! :)"
+  date: "29 May 2016"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/8.jpg"
+
+- name: "Country Side"
+  date: "16 Jan 2016"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/7.jpg"
+
+- name: "Imaginary Aurora Borealis! :)"
+  date: "10 Nov 2015"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/6.jpg"
+
+- name: "ET :D"
+  date: "27 Sep 2015"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/5.jpg"
+
+- name: "Oil Pastels - Abstract"
+  date: "06 Sep 2015"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/4.jpg"
+
+- name: "Drawing is always fun :D !"
+  date: "18 May 2015"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/3.jpg"
+
+- name: "Mixed Emotions"
+  date: "11 Feb 2015"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/2.jpg"
+
+- name: "Calvin and Hobbes :D"
+  date: "11 Jan 2015"
+  description: |
+
+  embed_url: ""
+  links:
+    - label: "Sketch"
+      url: "/assets/img/sketches/1.jpg"
+

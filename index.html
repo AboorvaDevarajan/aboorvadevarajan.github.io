@@ -1,34 +1,10 @@
 ---
 layout: default
+title: "Aboorva Devarajan: Home Page"
+header_title: Aboorva Devarajan
+include_header: home_header.html
+nav_item: home
 ---
 
-<meta name="portfolio" content="Aboorva Devarajan" />
-<div id="home">
-
-  <h1>About Me</h1>
-  <p> I am a Software Development Engineer with 4+ years of experience predominantly involved in developing parallel programming interface modules for High-Performance Computing Systems at IBM Systems Development Labs </p>
-
-  <p> My Interests includes <b> High-Performance Computing, Compilers, Algorithms, Artificial Intelligence</b>. </p>
-
-  <p> I always like to ponder and learn new things <img src="/images/smile.png"> I’m planning to share some of my projects, learnings and sketches here. </p>
-  <p> </p>
-
-  <p> </p>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-</div>
-
-<script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'aboorvadgithubio'; // required: replace example with your forum shortname
-
-/* * * DON'T EDIT BELOW THIS LINE * * */
-(function () {
-    var s = document.createElement('script'); s.async = true;
-    s.type = 'text/javascript';
-    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-}());
-</script>
+{% include analytics.html %}
+{% include about.html %}

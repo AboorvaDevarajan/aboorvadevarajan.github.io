@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Aboorva Devarajan: Sketches"
+header_title: Sketches
+include_header: sketches_header.html
+nav_item: sketches
+---
+{% include analytics.html %}
+
+<div id="home">
+  <h1>My Random Sketches</h1>
+  <p> Just sharing some random Sketches, even though my sketches doesn’t look great I love to draw, hoping one day I will improve. <img src="/assets/img/icons/smile.png"> </p>
+</div>
+
+{% for sketch in site.data.sketches %}
+  <div class="border-bottom border-light-gray mt4 mb4 pb3 circle-line">
+    {% for link in sketch.links %}
+      <div>
+        <h3>{{ sketch.name }}</h3><br/>
+        <img src="{{ link.url }}">
+        <p>{{ sketch.description }}</p>{% unless forloop.last %},{% endunless %}
+      </div>
+    {% endfor %}
+    <p class="h6 mb0 tight-line-height">
+    </p>
+    <p class="h5 mt0">
+      Date:
+      <time class="inline" datetime="{{ sketch.date | date:"%Y-%m-%d" }}">{{ sketch.date | date_to_string }}</time>
+    </p>
+  </div>
+{% endfor %}

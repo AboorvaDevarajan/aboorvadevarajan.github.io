@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Aboorva Devarajan: Random Snaps"
+header_title: Random Snaps
+include_header: snaps_header.html
+nav_item: snaps
+---
+{% include analytics.html %}
+
+<div id="home">
+  <h1>Random Snaps</h1>
+  <p> </p>
+</div>
+
+{% for snap in site.data.snaps %}
+  <div class="border-bottom border-light-gray mt4 mb4 pb3 circle-line">
+    {% for link in snap.links %}
+      <div>
+        <h3>{{ snap.name }}</h3><br/>
+        <img src="{{ link.url }}">
+        <p>{{ snap.description }}</p>{% unless forloop.last %},{% endunless %}
+      </div>
+    {% endfor %}
+    <p class="h6 mb0 tight-line-height">
+    </p>
+    <p class="h5 mt0">
+      Date:
+      <time class="inline" datetime="{{ snap.date | date:"%Y-%m-%d" }}">{{ snap.date | date_to_string }}</time>
+    </p>
+  </div>
+{% endfor %}
