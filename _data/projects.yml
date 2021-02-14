@@ -1,0 +1,18 @@
+- name: <h3> <strong> Graph Connect Multiplayer Game using Websockets via SocketIO </strong> </h3>
+  date: "2015"
+  description: <p> Developed a graph based multiplayer game that can be played over a local network using Socket IO, Python Flask Web Services. </p> 
+  url: ""
+  image: "graph-connect.png"
+
+
+- name: <h3> <strong> Efficient Resource Allocation for Virtual Machine using Particle Swarm Optimization in Cloud Computing Environment  </strong> </h3>
+  date: "2015"
+  description: <p>This project introduces a method for effectively allocating resources to dynamic virtual machine requests in a cloud environment, taking into account the load balancing of each physical machine. The concept of <b>"skewness"</b> is introduced to quantify the uneven distribution of resource usage across physical machines.</p><p>This project includes the following modules<ul><li> Introduction of the <b>"Skewness Value"</b> as a metric for assessing the load balancing factor of physical machine resources.</li><li> Implementation of Particle Swarm Optimization (PSO) an approximation based genetic algorithm to find the effective resource allocation.</li></ul></p>
+  url: ""
+  image: "pso.gif"
+
+- name: <h3> <strong> Optimal Game of Checkers </strong> </h3>
+  date: "2013"
+  description: <p> The project focuses on implementing the <b>alpha-beta pruning algorithm</b> to construct a game tree based on the current move in order to predict the optimal move for the machine in checkers. This project consists of the following modules <ul> <li>Generation of an N-ary Game Tree containing all possible states of a checkerboard, using the current board state as input.</li> <li> A <b>utility (payoff/heuristic) function</b> is utilized to determine the value of terminal states.</li> <li>Estimation of the game tree based on heuristic values to identify the best possible move.</li> <li>Parallelization of the game tree generation and search process using <b>Message Passing Interface</b>.</li> </ul> </p>
+  url: "https://aboorvadevarajan.github.io/Parallel-Checkers-Game/"
+  image: "checkers.png"
