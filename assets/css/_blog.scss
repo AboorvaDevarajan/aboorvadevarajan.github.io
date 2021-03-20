@@ -1,0 +1,22 @@
+.post .post-content {
+  img {
+
+  }
+
+  .large-image {
+    @media (min-width: 64em) {
+      position: relative;
+      left: -50%;
+
+      img {
+        max-width: 200% !important;
+      }
+    }
+  }
+}
+
+table.no-wrap {
+  th, td {
+    white-space: nowrap;
+  }
+}

@@ -1,86 +1,65 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Website settings
+url: ""
 
-# Name of your site (displayed in the header)
-name: Aboorva Devarajan
+# Internal nav
+nav:
+  main:
+    home: "/"
+    blog: "/blog"
+    sketches: "/sketches"
+    projects: "/projects"
+  blog:
+    all: "/blog"
+    popular: "/blog/popular"
+    tags: "/blog/tags"
 
-# Short bio or description (displayed in the header)
-description: Software Development Engineer - High Performance Computing
+# Bio settings
+name: "Aboorva Devarajan"
+description: ""
+thumbnail_path: "profile-photos/aboo.jpg"
+website_repo_url: ""
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/AboorvaDevarajan/aboorvadevarajan.github.io/master/images/aboo.jpg
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: aburvadevarajan@gmail.com
-  facebook: aboorva.devarajan
-  flickr:
-  github: aboorvadevarajan
-  instagram:
-  linkedin: aboorvadevarajan
-  pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+# URLs
+contact_urls:
+  linkedin:
+    url: "https://www.linkedin.com/in/aboorvadevarajan"
+    label: "LinkedIn"
+    icon: "linkedin-square"
+  facebook:
+    url: "https://www.facebook.com/aboorva.devarajan"
+    label: "Facebook"
+    icon: "facebook-square"
+  github:
+    url: "https://github.com/AboorvaDevarajan/"
+    label: "GitHub"
+    icon: "github-square"
+  email:
+    url: "mailto:aburvadevarajan@gmail.com"
+    label: "Email"
+    value: "aburvadevarajan@gmail.com"
+    icon: "envelope-square"
   twitter:
-  stackoverflow: users/1291157/aboorva-devarajan
-  youtube: # channel/<your_long_string> or user/<user-name>
-  wordpress: aboorvadevarajan
-  wordpress_code: aboorvad
+    url: "https://twitter.com/AburvaDev"
+    label: "Twitter"
+    icon: "twitter-square"
+    username: "@AburvaDev"
+  stackoverflow:
+    url: "https://stackoverflow.com/users/1291157"
+    label: "SO"
+    icon: "stack-exchange"
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: aboorvadgithubio
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-63073634-1
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:  http://aboorvadevarajan.github.io
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: "http://aboorvadevarajan.github.io"
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-markdown: redcarpet
-highlighter: pygments
-permalink: /:title/
-
-# The release of Jekyll Now that you're using
-version: v1.1.0
-
-# Set the Sass partials directory, as we're using @imports
+# Jekyll build settings
+paginate: 10
+paginate_path: "/blog/page:num"
+permalink: "/blog/:year/:month/:day/:title/"
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
+repository: 
 
-# Use the following plug-ins
+# Plugins (GitHub Pages only support a few)
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-
-# Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - CNAME
-
-
-sketches:
-  - image: /images/sketches/1.jpg
-  - image: /images/sketches/2.jpg
-  - image: /images/sketches/3.jpg
-
-collections:
-  photo_gallery:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate

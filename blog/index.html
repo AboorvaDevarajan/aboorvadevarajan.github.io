@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Aboorva Devarajan: Blog"
+nav_item: blog
+nav_item_blog: all
+header_title: Blog Posts
+include_header: blog_header.html
+include_comments:
+  count: true
+---
+
+{% include blog_nav.html %}
+{% for post in paginator.posts %}
+  {% include post_outline.html post=post %}
+{% endfor %}
+{% include pagination.html %}
