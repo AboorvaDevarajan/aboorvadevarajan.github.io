@@ -1,12 +1,16 @@
 ---
 layout: default
+bottom_include: "comments.html"
+include_header: "post_header.html"
+include_comments:
+  embed: true
+  count: true
 ---
 
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-{{ content }}
-</div>
-
-
+<article class="post">
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <div class="mt4 mb4">{% include post_navigation.html %}</div>
+  <div class="mt4">{% include author_share.html %}</div>
+</article>
