@@ -39,10 +39,10 @@ contact_urls:
     value: "aburvadevarajan@gmail.com"
     icon: "envelope-square"
   twitter:
-    url: "https://twitter.com/AburvaDev"
+    url: "https://twitter.com/aburvadevarajan"
     label: "Twitter"
     icon: "twitter-square"
-    username: "@AburvaDev"
+    username: "@aburvadevarajan"
   stackoverflow:
     url: "https://stackoverflow.com/users/1291157"
     label: "SO"
