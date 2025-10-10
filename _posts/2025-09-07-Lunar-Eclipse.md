@@ -7,7 +7,7 @@ tags:
 - space
 - moon
 - lunar eclipse
-thumbnail_path: lunar-eclipse-2025/IMG20250908005318.jpg
+thumbnail_path: lunar-eclipse-2025/IMG20250908012957.jpg
 
 --- 
 
