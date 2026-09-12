@@ -18,7 +18,7 @@ nav:
 # Bio settings
 name: "Aboorva Devarajan"
 description: ""
-thumbnail_path: "profile-photos/aboo.jpg"
+thumbnail_path: "profile-photos/aboo-bannerghatta.jpg"
 website_repo_url: ""
 
 # URLs
@@ -51,8 +51,6 @@ contact_urls:
     icon: "stack-exchange"
 
 # Jekyll build settings
-paginate: 10
-paginate_path: "/blog/page:num"
 permalink: "/blog/:year/:month/:day/:title/"
 sass:
   sass_dir: "/assets/css"
@@ -65,4 +63,3 @@ repository:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-paginate

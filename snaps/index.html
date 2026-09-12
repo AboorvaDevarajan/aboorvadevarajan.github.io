@@ -24,8 +24,10 @@ nav_item: snaps
     <p class="h6 mb0 tight-line-height">
     </p>
     <p class="h5 mt0">
+      {% if snap.date != "" %}
       Date:
       <time class="inline" datetime="{{ snap.date | date:"%Y-%m-%d" }}">{{ snap.date | date_to_string }}</time>
+      {% endif %}
     </p>
   </div>
 {% endfor %}

@@ -1,0 +1,74 @@
+---
+layout: default
+title: "Aboorva Devarajan: Book Shelf"
+header_title: Book Shelf
+include_header: books_header.html
+nav_item: book-shelf
+---
+
+{% include analytics.html %}
+
+<style>
+.book-cover {
+  text-align: center;
+}
+
+.book-cover img {
+  max-width: 100%;
+  width: auto;
+  max-height: 460px;
+  height: auto;
+  display: inline-block;
+  border: 1px solid #ddd;
+}
+
+.book-cover img.book-back {
+  margin-top: 1rem;
+}
+
+.book-summary img.smiley {
+  width: 1.1em !important;
+  height: 1.1em !important;
+  max-width: 1.1em !important;
+  object-fit: contain !important;
+  vertical-align: middle;
+  display: inline !important;
+}
+
+.book-summary p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+
+.book-summary ul {
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+}
+
+.book-summary li {
+  margin-bottom: 0.45rem;
+}
+
+.book-meta {
+  color: #666;
+  margin-top: 0.15rem;
+  margin-bottom: 0.9rem;
+}
+</style>
+
+{% for book in site.data.books %}
+  <article class="mxn2 clearfix mb2 py3 border-bottom border-light-gray circle-line">
+    <div class="col sm-col-4 px2 mb2 book-cover">
+      <img src="/assets/img/books/{{ book.image }}" alt="{{ book.title }}">
+      {% if book.back_image %}
+        <img class="book-back" src="/assets/img/books/{{ book.back_image }}" alt="{{ book.title }} back page">
+      {% endif %}
+    </div>
+    <div class="col sm-col-8 px2 book-summary">
+      <h2 class="mt0 mb0">{{ book.title }}</h2>
+      <p class="book-meta">{{ book.subtitle }}<br>{{ book.authors }}</p>
+      {{ book.summary | markdownify }}
+    </div>
+  </article>
+{% endfor %}

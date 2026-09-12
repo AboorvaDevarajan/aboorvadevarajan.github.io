@@ -248,10 +248,10 @@ Then you reach the **temple tank**. Gopurams reflecting in the water. Quiet. Per
 
 <div class="photo-gallery">
   <div class="gallery-item">
-    <a href="/assets/img/chidambaram-thillai-natarajar/IMG_20241223_063738.jpg" class="lb-trigger" data-caption="Looking up">
-      <img src="/assets/img/chidambaram-thillai-natarajar/IMG_20241223_063738.jpg" alt="Looking up at the gopuram">
+    <a href="/assets/img/chidambaram-thillai-natarajar/IMG_20241223_063738.jpg" class="lb-trigger" data-caption="A tree in the temple grounds">
+      <img src="/assets/img/chidambaram-thillai-natarajar/IMG_20241223_063738.jpg" alt="A leafy tree inside the Chidambaram temple grounds">
     </a>
-    <div class="desc">Looking up</div>
+    <div class="desc">A tree in the temple grounds</div>
   </div>
 
   <div class="gallery-item">
@@ -276,10 +276,10 @@ Then you reach the **temple tank**. Gopurams reflecting in the water. Quiet. Per
   </div>
 
   <div class="gallery-item">
-    <a href="/assets/img/chidambaram-thillai-natarajar/IMG_20241223_072756.jpg" class="lb-trigger" data-caption="More tank views">
-      <img src="/assets/img/chidambaram-thillai-natarajar/IMG_20241223_072756.jpg" alt="Temple tank view">
+    <a href="/assets/img/chidambaram-thillai-natarajar/IMG_20241223_072756.jpg" class="lb-trigger" data-caption="The painted gopuram above the outer wall">
+      <img src="/assets/img/chidambaram-thillai-natarajar/IMG_20241223_072756.jpg" alt="Painted gopuram rising above the temple's outer wall">
     </a>
-    <div class="desc">More tank views</div>
+    <div class="desc">The painted gopuram above the outer wall</div>
   </div>
 
   <div class="gallery-item">
