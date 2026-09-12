@@ -11,7 +11,7 @@ include_comments:
 {% include analytics.html %}
 
 {% include blog_nav.html %}
-{% for post in paginator.posts %}
+{% assign chronological_posts = site.posts | sort: "date" %}
+{% for post in chronological_posts %}
   {% include post_outline.html post=post %}
 {% endfor %}
-{% include pagination.html %}

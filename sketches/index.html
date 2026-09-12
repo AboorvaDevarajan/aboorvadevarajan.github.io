@@ -24,8 +24,10 @@ nav_item: sketches
     <p class="h6 mb0 tight-line-height">
     </p>
     <p class="h5 mt0">
+      {% if sketch.date != "" %}
       Date:
       <time class="inline" datetime="{{ sketch.date | date:"%Y-%m-%d" }}">{{ sketch.date | date_to_string }}</time>
+      {% endif %}
     </p>
   </div>
 {% endfor %}

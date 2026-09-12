@@ -7,6 +7,8 @@ node_modules
 # Jekyll
 _site/
 .sass-cache/
+.sass-cache.root-owned.bak/
+_site.root-owned.bak/
 .jekyll-metadata
 
 # OS X

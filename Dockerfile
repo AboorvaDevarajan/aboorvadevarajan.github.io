@@ -6,6 +6,8 @@ MAINTAINER Aboorva Devarajan <aburvadevarajan@gmail.com>
 WORKDIR /tmp
 ADD Gemfile Gemfile
 ADD Gemfile.lock Gemfile.lock
+RUN gem install bundler -v 2.2.15
+ENV BUNDLER_VERSION=2.2.15
 RUN bundle install
 
 # Copy source

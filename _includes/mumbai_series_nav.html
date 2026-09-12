@@ -1,0 +1,33 @@
+<style>
+.mumbai-series {
+  margin: 0 0 2rem;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid #0096cc;
+  background: #f6f8f9;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.mumbai-series strong {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: #333;
+}
+
+.mumbai-series-links {
+  color: #666;
+}
+</style>
+
+<nav class="mumbai-series" aria-label="Mumbai, June 2026 series">
+  <strong>Mumbai, June 2026 · Part {{ include.part }} of 4</strong>
+  <div class="mumbai-series-links">
+    {% if include.previous_url %}
+      <a href="{{ include.previous_url }}">&larr; {{ include.previous_title }}</a>
+    {% endif %}
+    {% if include.previous_url and include.next_url %} · {% endif %}
+    {% if include.next_url %}
+      <a href="{{ include.next_url }}">{{ include.next_title }} &rarr;</a>
+    {% endif %}
+  </div>
+</nav>
