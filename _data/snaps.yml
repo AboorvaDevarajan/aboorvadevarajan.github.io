@@ -1,80 +1,157 @@
-- name: ""
-  date: ""
-  description: |
+- id: flowers
+  title: Flowers
+  snaps:
+    - src: /assets/img/snaps/IMG20250830140205.jpg
+      caption: Spider lily
+    - src: /assets/img/snaps/IMG20250830161101-EDIT.jpg
+      caption: Skipper on the pink
+    - src: /assets/img/snaps/IMG20250830140547-EDIT.jpg
+      caption: Morning glory
+    - src: /assets/img/snaps/IMG20250830160601-EDIT.jpg
+      caption: Coleus in bloom
+    - src: /assets/img/snaps/IMG20250830163638-EDIT.jpg
+      caption: White, with a red heart
+    - src: /assets/img/snaps/IMG20250830162559-EDIT.jpg
+      caption: Hollyhock, and a bee
+    - src: /assets/img/snaps/IMG-20250330-WA0012__01.jpg
+      caption: Cannonball flowers on the ground
+    - src: /assets/img/snaps/IMG20250830163320.jpg
+      caption: Crepe jasmine
+    - src: /assets/img/snaps/IMG20250830160451.jpg
+      caption: Zinnia
+    - src: /assets/img/snaps/IMG20250830145348.jpg
+      caption: Peace lily
+    - src: /assets/img/snaps/IMG20250830164016.jpg
+      caption: Powder puff
+    - src: /assets/img/snaps/IMG20250830160901.jpg
+      caption: Cup of gold
+    - src: /assets/img/snaps/IMG_20241230_120551.jpg
+      caption: Cosmos
+    - src: /assets/img/snaps/IMG20250830162326.jpg
+      caption: Purple hollyhock
+    - src: /assets/img/snaps/IMG_20250330_162151__01.jpg
+      caption: Monkey brush
+    - src: /assets/img/snaps/IMG20250830135054.jpg
+      caption: Sunflower
+    - src: /assets/img/snaps/IMG20250830160544-EDIT.jpg
+      caption: Coleus leaves
 
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/10.jpg"
-- name: ""
-  date: ""
-  description: |
+- id: birds
+  title: Birds
+  snaps:
+    - src: /assets/img/snaps/IMG20260928170522.jpg
+      caption: Spotted owlet
+    - src: /assets/img/snaps/IMG_20261003_014551.jpg
+      caption: Still sleeping
+    - src: /assets/img/snaps/IMG_20241221_165523__01-EDIT.jpg
+      caption: Conure, stealing a snack
+    - src: /assets/img/snaps/IMG_20241221_165720-EDIT-EDIT.jpg
+      caption: Macaw
+    - src: /assets/img/snaps/IMG_20241221_162607.jpg
+      caption: Pigeon greens
+    - src: /assets/img/snaps/IMG_20170702_233218_301.jpg
+      caption: Nest in a pot
+    - src: /assets/img/snaps/IMG_20241221_162705__01.jpg
+      caption: Frillback
+    - src: /assets/img/snaps/IMG_20241221_162524.jpg
+      caption: Fancy feet
+    - src: /assets/img/snaps/IMG_20241221_164116-EDIT.jpg
+      caption: Crested duck
+    - src: /assets/img/snaps/IMG20260928171225_01-EDIT.jpg
+      caption: Two on the water
+    - src: /assets/img/snaps/IMG_20251006_165003-EDIT.jpg
+      caption: Sparrow
+    - src: /assets/img/snaps/IMG_20250830_183357.jpg
+      caption: Myna by the pond
 
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/9.jpg"
-- name: ""
-  date: ""
-  description: |
+- id: animals
+  title: Animals
+  snaps:
+    - src: /assets/img/snaps/2019-12-25-13-06-59-758__01.jpg
+      caption: Hello
+    - src: /assets/img/snaps/IMG20250928155206-EDIT.jpg
+      caption: Hanging around
+    - src: /assets/img/snaps/IMG20260330091120.jpg
+      caption: Lunch
+    - src: /assets/img/snaps/IMG20250830150851-EDIT.jpg
+      caption: Afternoon shift
 
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/8.jpg"
-- name: ""
-  date: ""
-  description: |
+- id: trees
+  title: Trees
+  snaps:
+    - src: /assets/img/snaps/8.jpg
+      caption: That tree
+    - src: /assets/img/snaps/IMG20250830160947.jpg
+      caption: Cut leaf
+    - src: /assets/img/snaps/IMG_20250831_125135-EDIT.jpg
+      caption: Spines
+    - src: /assets/img/snaps/IMG20250830172359_3.jpg
+      caption: Roots
+    - src: /assets/img/snaps/IMG_20241224_104232__01.jpg
+      caption: Under the banyan
+    - src: /assets/img/snaps/IMG20250830173014_2.jpg
+      caption: Rings
+    - src: /assets/img/snaps/IMG_20250330_160234__01.jpg
+      caption: Jacaranda
+    - src: /assets/img/snaps/IMG_20250831_123506.jpg
+      caption: Spread
+    - src: /assets/img/snaps/IMG_20250901_071251.jpg
+      caption: The big one
 
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/7.jpg"
-- name: ""
-  date: ""
-  description: |
+- id: places
+  title: Places
+  snaps:
+    - src: /assets/img/snaps/1.jpg
+      caption: Coast
+    - src: /assets/img/snaps/2.jpg
+      caption: Open ground, sea behind
+    - src: /assets/img/snaps/3.jpg
+      caption: Edge of the water
+    - src: /assets/img/snaps/4.jpg
+      caption: Rocks
+    - src: /assets/img/snaps/7.jpg
+      caption: Still water
+    - src: /assets/img/snaps/IMG-20240814-WA0019.jpg
+      caption: Road by the flats
+    - src: /assets/img/snaps/IMG-20240815-WA0010-EDIT.jpg
+      caption: The strip
+    - src: /assets/img/snaps/IMG-20240815-WA0006-EDIT.jpg
+      caption: Tracks and hills
+    - src: /assets/img/snaps/IMG-20241221-WA0038.jpg
+      caption: Blue barrage
+    - src: /assets/img/snaps/IMG_20241222_111106__01_2.jpg
+      caption: Paddy
+    - src: /assets/img/snaps/IMG_20241223_100822.jpg
+      caption: Through the mangroves
+    - src: /assets/img/snaps/IMG_20241223_101004__01.jpg
+      caption: Another turn
 
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/6.jpg"
-- name: ""
-  date: ""
-  description: |
+- id: sunsets
+  title: Sunrise / Sunset
+  snaps:
+    - src: /assets/img/snaps/5.jpg
+      caption: Sun on the sea
+    - src: /assets/img/snaps/6.jpg
+      caption: Watching the glare
+    - src: /assets/img/snaps/10.jpg
+      caption: Pink hour
+    - src: /assets/img/snaps/9.jpg
+      caption: Moon in the branches
+    - src: /assets/img/snaps/IMG20250824190027.jpg
+      caption: Evening sea
+    - src: /assets/img/snaps/IMG20250824190513.jpg
+      caption: Crescent
+    - src: /assets/img/snaps/IMG_20241208_164541.jpg
+      caption: Light behind the cloud
 
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/5.jpg"
-- name: ""
-  date: ""
-  description: |
-
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/4.jpg"
-- name: ""
-  date: ""
-  description: |
-
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/3.jpg"
-- name: ""
-  date: ""
-  description: |
-
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/2.jpg"
-- name: ""
-  date: ""
-  description: |
-
-  embed_url: ""
-  links:
-    - label: "Snap"
-      url: "/assets/img/snaps/1.jpg"
+- id: temples
+  title: Temples
+  snaps:
+    - src: /assets/img/snaps/IMG_20241222_064706-EDIT.jpg
+      caption: Yalis, and the writing
+    - src: /assets/img/snaps/IMG_20241222_071543.jpg
+      caption: Looking up
+    - src: /assets/img/snaps/IMG_20241222_073745.jpg
+      caption: Evening tower
+    - src: /assets/img/snaps/IMG_20241223_063815.jpg
+      caption: Blue gopuram
